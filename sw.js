@@ -1,5 +1,5 @@
 let cacheName =  "pwaTabelas";
-let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js", "/aulas/index.html","/aulas/style.css","/pes/index.htmls","/pes/style.css"];
+let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js", "/css/aula.css", "/css/pe.css", "/aula.html","/pe.html"];
 
 self.addEventListener("install", (e) => {
     e.waitUntil(
