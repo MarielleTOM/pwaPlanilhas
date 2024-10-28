@@ -2,7 +2,7 @@
   "name": "pwaplanilhas",
   "version": "1.0.0",
   "description": "Planilha de horário e permanecia.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "serve ."

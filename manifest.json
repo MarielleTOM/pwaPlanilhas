@@ -1,19 +1,9 @@
 {
     "name": "Minha App Progressiva Horários de aula e PEs",
     "short_name": "PWA Horários de aula e PEs",
-    "icons":[
-        {
-            "src": "imagens/pwa-icon-256.png",
-            "sizes": "256X256",
-            "type": "imagens/png"
-        },
-        {
-            "src": "imagens/pwa-icon-512.png",
-            "sizes": "512X512",
-            "type": "imagens/png"
-        }
-    ],
+    "icons":[],
     "lang": "pt-BR",
+    "start_url":"/index.html",
     "display": "standalone",
     "background_color": "white",
     "thema_color": "white"

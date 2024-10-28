@@ -1,5 +1,5 @@
-let cacheName =  "my-first-pwa";
-let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js", "/aulas"];
+let cacheName =  "pwaTabelas";
+let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js", "/aulas/index.html","/aulas/style.css","/pes/index.htmls","/pes/style.css"];
 
 self.addEventListener("install", (e) => {
     e.waitUntil(
@@ -10,9 +10,11 @@ self.addEventListener("install", (e) => {
 });
 
 self.addEventListener("fetch", (e) => {
-    e.respondWith(
-        caches.match(e.request).then((response) =>{
-            return response || fetch(e.request);
+    e.respondWhith(
+        caches.match(e.request).then((response) => {
+            caches.match(e.request).then((response) => {
+                return response || fetch(e.request);
+            })
         })
     );
 });
